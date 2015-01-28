@@ -1,4 +1,4 @@
-import tangent from 'src/tangent';
+import tangent from '../src/tangent';
 
 class TestApp {
   constructor () {
