@@ -1,7 +1,9 @@
-class MyApp {
+import tangent from 'src/tangent';
+
+class TestApp {
   constructor () {
-    console.log('app created')
+    tangent.rootElement.html('TestApp has loaded successfully!')
   }
 }
 
-export default MyApp
+export default TestApp
